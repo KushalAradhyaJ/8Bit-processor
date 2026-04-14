@@ -39,7 +39,7 @@ The design consists of two main states:
 ## 🚦 Simulation Results
 Below is the timing diagram showing the processor executing a loop. You can see the `pc` reset to `00` after the `JUMP` instruction, and the `out_port` incrementing.
 
-![Simulation Waveform]()
+![Simulation Results](waveform.png)
 
 ---
 
