@@ -1,0 +1,8 @@
+15 // LOAD from Addr 5 (starts with 00)
+26 // ADD value from Addr 6 (Addr 6 holds 01)
+30 // OUT result (shows 01, then 02, then 03...)
+55 // STORE result back to Addr 5 (Save our progress)
+70 // JUMP back to Address 0 <--- THE LOOP!
+00 // Variable (The counter)
+01 // Constant (The number 1)
+00
