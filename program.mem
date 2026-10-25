@@ -1,8 +1,10 @@
-15 // LOAD from Addr 5 (starts with 00)
-26 // ADD value from Addr 6 (Addr 6 holds 01)
-30 // OUT result (shows 01, then 02, then 03...)
-55 // STORE result back to Addr 5 (Save our progress)
-70 // JUMP back to Address 0 <--- THE LOOP!
-00 // Variable (The counter)
-01 // Constant (The number 1)
-00
+18 // ADDR 0: LOAD from Addr 8 (Loads initial 0)
+29 // ADDR 1: ADD from Addr 9 (Adds 1)
+30 // ADDR 2: OUT (Displays 1)
+29 // ADDR 3: ADD from Addr 9 (Adds 1)
+30 // ADDR 4: OUT (Displays 2)
+29 // ADDR 5: ADD from Addr 9 (Adds 1)
+30 // ADDR 6: OUT (Displays 3)
+40 // ADDR 7: HALT (Locks the CPU here)
+00 // ADDR 8: Variable (Initial value 0)
+01 // ADDR 9: Constant (The number 1)
